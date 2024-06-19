@@ -6,6 +6,19 @@
 
 A simple network logger based on the [Pulse](https://github.com/kean/Pulse) library.
 
+## Quick Start
+
+```swift
+// In the AppDelegate's didFinishLaunchingWithOptions method
+NetworkLogger.shared.prepare()
+```
+
+```swift
+// If you need to enable or disable the shake motion, you can do it as follows
+NetworkLogger.shared.enable()
+NetworkLogger.shared.disable()
+```
+
 ## License
 
-Pulsar is available under the MIT license. See the LICENSE file for more info.
+Pulsar is available under the MIT license. See the [LICENSE file](https://github.com/mrmda28/Pulsar/blob/main/LICENSE) for more info.

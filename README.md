@@ -5,3 +5,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
 
 A simple network logger based on the [Pulse](https://github.com/kean/Pulse) library.
+
+## License
+
+Pulsar is available under the MIT license. See the LICENSE file for more info.

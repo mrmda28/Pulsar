@@ -36,10 +36,7 @@ public final class NetworkLogger {
     
     public func prepare() {
         guard !isPrepared else { return }
-        
-        URLSessionProxyDelegate.enableAutomaticRegistration()
         Experimental.URLSessionProxy.shared.isEnabled = true
-        
         isPrepared = true
     }
     

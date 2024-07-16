@@ -34,10 +34,12 @@ public final class NetworkLogger {
     
     private init() { }
     
-    public func prepare() {
+    public func prepare(forNative: Bool = true) {
         guard !isPrepared else { return }
         
-        URLSessionProxyDelegate.enableAutomaticRegistration()
+        if !forNative {
+            URLSessionProxyDelegate.enableAutomaticRegistration()
+        }
         Experimental.URLSessionProxy.shared.isEnabled = true
         
         isPrepared = true

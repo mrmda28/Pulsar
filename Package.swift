@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/kean/Pulse", from: "4.2.4")
+        .package(url: "https://github.com/kean/Pulse", from: "4.2.7")
     ],
     targets: [
         .target(
